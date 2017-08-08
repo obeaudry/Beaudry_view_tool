@@ -9,9 +9,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Owen Beaudry"]
   spec.email         = ["owenbeaudry@gmail.com"]
 
+
   spec.summary       = %q{Various view specific methods for applications I use.}
   spec.description   = %q{Provides generated HTML data for Rails applications.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://devcamp.com" 
+  spec. license      = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
